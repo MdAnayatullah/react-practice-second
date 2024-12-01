@@ -16,24 +16,24 @@ function App() {
       <div className="flex flex-wrap justify-center gap-4">
         <button onClick={() => setColor("red")}
          className="bg-red-600 mx-2 my-2 px-3 py-1 rounded-xl font-bold"
-          style={{backgroundColor:"red"}}> Red
+          style={{backgroundColor:{color}}}> Red
         </button>
 
         <button onClick={()=>setColor("green")}
         className = "bg-green-500 mx-2 my-2 px-3 py-1 rounded-xl font-bold"
-        style={{backgroundColor:"green"}}>Green</button>
+        style={{backgroundColor:{color}}}>Green</button>
 
         <button onClick={()=>setColor("blue")}
          className = "bg-blue-600 mx-2 my-2 px-3 py-1 rounded-xl font-bold"
-        style={{backgroundColor:"blue"}}>Blue</button>
+        style={{backgroundColor:{color}}}>Blue</button>
 
         <button onClick={()=>setColor("yellow")}
         className = "bg-yellow-400 mx-2 my-2 px-3 py-1 rounded-xl font-bold"
-        style={{backgroundColor:"yellow"}}>Yellow</button>
+        style={{backgroundColor:{color}}}>Yellow</button>
 
         <button onClick={()=>setColor("purple")} 
         className= "bg-purple-500 mx-2 my-2 px-3 py-1 rounded-xl font-bold"
-        style={{backgroundColor:"purple"}}>Purple</button>
+        style={{backgroundColor:{color}}}>Purple</button>
       </div>
     </div>
     </div>
